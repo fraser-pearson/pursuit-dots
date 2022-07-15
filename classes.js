@@ -12,7 +12,7 @@ function start () {
 
 function one () {
   // First, we have to find the element:
-  var one = document.getElementById('one')
+  let one = document.getElementById('one')
 
   // Next, we apply a new CSS class to it:
   one.classList.add('blue')
